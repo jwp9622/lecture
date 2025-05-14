@@ -60,23 +60,23 @@ git config --global user.name "dahee"
 git config --global user.email "jwp9622@naver.com"
 
 ## 리눅스 명령어
-### ~ 현재 디렉토리
-### pwd 현재 위치 경로
-### ls  현재 디렉토리 목록
-### ls -l 자세한 디렉토리 리스트
-ls -a 숨겨진 디렉토리
-ls -r 파일의 정렬순서 거꾸로 보여주기
-ls -t 파일 작성시간을 내림차순으로 
-clear 화면 지우기
-cd 디렉토리 이동
-cd . 현재디렉토리
-cd .. 상위디렉토리
-cd ~ 홈디렉토리
-. 상위디렉토리
-.. 상위 디렉토리
-mkdir 디렉토리 생성
-rm -r test -> test 디렉토리 지우기
-exit 터미털 종료
+- ~ 현재 디렉토리
+- pwd 현재 위치 경로
+- ls  현재 디렉토리 목록
+- ls -l 자세한 디렉토리 리스트
+- ls -a 숨겨진 디렉토리
+- ls -r 파일의 정렬순서 거꾸로 보여주기
+- ls -t 파일 작성시간을 내림차순으로 
+- clear 화면 지우기
+- cd 디렉토리 이동
+- cd . 현재디렉토리
+- cd .. 상위디렉토리
+- cd ~ 홈디렉토리
+- . 상위디렉토리
+- .. 상위 디렉토리
+- mkdir 디렉토리 생성
+- rm -r test -> test 디렉토리 지우기
+- exit 터미털 종료
 
 ## 명령어 테스트
 1. git config user.name "easys" : 깃 환경에서 이름올 'easys'로 지정
