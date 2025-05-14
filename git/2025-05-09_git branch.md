@@ -1,47 +1,45 @@
 # 2025.5.9 git branch
 
-기술은 생계기술이다.
-단순한 지식들은 단기간이지만 전문적인 기술은 살아남는다.
-훈련의 과정은 살아남는다.
-나를 훈련시켜야한다. 어렵고 힘든 상황들에도 좋은 결과가 나올수 있다.
-시간많이 걸리고 훈련의 과정이 필요하다.
-git은 시연이 필요하다
-실패에서 얻는게많다. 많이 노력해야한다.
-2사 8을 이끈다. 내가 2에 속할수 있어야한다.
+- 기술은 생계기술이다.
+- 단순한 지식들은 단기간이지만 전문적인 기술은 살아남는다.
+- 훈련의 과정은 살아남는다.
+- 나를 훈련시켜야한다. 어렵고 힘든 상황들에도 좋은 결과가 나올수 있다.
+- 시간많이 걸리고 훈련의 과정이 필요하다.
+- git은 시연이 필요하다
+- 실패에서 얻는게많다. 많이 노력해야한다.
+- 2사 8을 이끈다. 내가 2에 속할수 있어야한다.
+- 도구에 대해서 편집하지마라. 웹, 이클립스, 비주얼코드 여러개 사용
 
-도구에 대해서 편집하지마라. 웹, 이클립스, 비주얼코드 여러개 사용
-
-git branch 사용이유
-개발주체가 여러고객사로 제품을 만들수 있기때문에
-하나의 가지에서 공정을 만드는것보다 여러프로세서에서 하는것이 좋다.
+## git branch 사용이유
+- 개발주체가 여러고객사로 제품을 만들수 있기때문에
+--  하나의 가지에서 공정을 만드는것보다 여러프로세서에서 하는것이 좋다.
 예를 여러개의 공장에서 생산하는것과 비슷하다.
 
 ## branch
-git branch /  branch 확인, 기본은 main 이다
-* / 메인 브랜치에서 작업중이다.
-git branch apple / apple 브랜드 만든다
-git log --oneline  / 한줄에 한개씩 보여준다.
-git switch apple   / 브랜지 변경, 스위치를 한것이다.
-git add . / 파일을 한꺼번에 스테이지에 옮김
-git log --oneline --branches - branch   / 한꺼번에 보기
-git log --oneline --branches --graph     / branch를 그래프로 보기
-git log main..apple / 메인에는 없고 apple에 있는것만 보여주기
-git log apple..main /  apple에는 없고 메인에 있는것만 보여주기
++ git branch /  branch 확인, 기본은 main 이다
+  - * / 메인 브랜치에서 작업중이다.
+- git branch apple / apple 브랜드 만든다
+- git log --oneline  / 한줄에 한개씩 보여준다.
+- git switch apple   / 브랜지 변경, 스위치를 한것이다.
+- git add . / 파일을 한꺼번에 스테이지에 옮김
+- git log --oneline --branches - branch   / 한꺼번에 보기
+- git log --oneline --branches --graph     / branch를 그래프로 보기
+- git log main..apple / 메인에는 없고 apple에 있는것만 보여주기
+- git log apple..main /  apple에는 없고 메인에 있는것만 보여주기
 
 ## branch 병합하기
-뻗어나간다고 좋은게 아니다. 제품은 1개이기 때문에 
-git switch main / 병합하기전에 main으로 swithch 해야함
-git merge o2 / o2메인 브랜치를 기준으로 가져온다. 안내페이지나오고 닫으면 저장된다. merge도 commit이다
-두개의 브랜치에 서로다른문서가 있으면 쉽게 병합가능하지만
-두개의 브랜치에서 같은문서를 수정하면 어떻게 병합할것인가
+- 뻗어나간다고 좋은게 아니다. 제품은 1개이기 때문에 
+- git switch main / 병합하기전에 main으로 swithch 해야함
+- git merge o2 / o2메인 브랜치를 기준으로 가져온다. 안내페이지나오고 닫으면 저장된다. merge도 commit이다
+- 두개의 브랜치에 서로다른문서가 있으면 쉽게 병합가능하지만
+- 두개의 브랜치에서 같은문서를 수정하면 어떻게 병합할것인가
 
-같은문서의 다른부분수정 - 병합된 내용이 나옴.
-같은문서의 같은부분수정 - 병합후 병합 편집기에서 확인후 수정
+- 같은문서의 다른부분수정 - 병합된 내용이 나옴.
+- 같은문서의 같은부분수정 - 병합후 병합 편집기에서 확인후 수정
 
-git branch -d o2 / 브랜치 삭제
-git log --stat / 저장소의 파일목록까지 같이 보여주기
-
-git log --oneline --branches --graph
+- git branch -d o2 / 브랜치 삭제
+- git log --stat / 저장소의 파일목록까지 같이 보여주기
+- git log --oneline --branches --graph
 
 
 ## git 문제
@@ -72,10 +70,10 @@ git log --oneline --branches --graph
 19. git clean -fdx //추적할 수 없는 모든 파일 제거
 20. 커밋 내역을 출력하는 명령어는? git log
 21. new.txt 파일을 만들고 커밋까지 완료하는 전체 명령어를 쓰시오.
-touch new.txt
-echo "aaa" >> new.txt / git add new.txt
-git add new.txt
-git commit -m "new"
+- touch new.txt
+- echo "aaa" >> new.txt / git add new.txt
+- git add new.txt
+- git commit -m "new"
 
 
 ## Git 명령어 시험 정답 및 해설
@@ -179,38 +177,38 @@ B – Git 저장소 초기화
 ## Ⅲ. 실습형
 [문제] 다음 지시사항에 따라 정확한 Git 명령어를 작성하시오.
 1. bugfix 브랜치를 생성하고 전환하시오.
-git branch bugfix
-git switch bugfix
+- git branch bugfix
+- git switch bugfix
 2. file-10.txt라는 파일을 생성하시오.
-touch file-10.txt
+- touch file-10.txt
 3. 해당 파일을 스테이징하고 커밋 메시지를 "add file"로 저장하시오.
-echo "aaa">>file-10.txt
-git add file-10.txt
-git commit -m "add file"
+- echo "aaa">>file-10.txt
+- git add file-10.txt
+- git commit -m "add file"
 4. fixed 브랜치를 main 브랜치에 병합하시오.
-git switch main
-git merge bugfix
+- git switch main
+- git merge bugfix
 5. 병합 완료 후 fixed 브랜치를 삭제하시오.
-git branch -d bugfix
+- git branch -d bugfix
 6. 커밋 해시 12345abcd를 cherry-pick 하시오.
-git cherry-pick 12345abcd
+- git cherry-pick 12345abcd
 7. 현재 브랜치의 커밋 로그를 그래프로 출력하시오.
-git log --graph
+- git log --graph
 8. 브랜치 목록을 확인하시오.
-git branch
+- git branch
 9. main 브랜치로 전환하시오.
-git switch main
+- git switch main
 10. 현재 디렉토리의 모든 변경 파일을 stage에 추가하시오.
-git add .
+- git add .
 
 Ⅲ. 실습형 정답 및 해설
-git branch bugfix && git switch bugfix
-touch file-10.txt
-git add file-10.txt && git commit -m "add file"
-git switch main && git merge fixed
-git branch -d fixed
-git cherry-pick 12345abcd
-git log --graph
-git branch
-git switch main
-git add .
+- git branch bugfix && git switch bugfix
+- touch file-10.txt
+- git add file-10.txt && git commit -m "add file"
+- git switch main && git merge fixed
+- git branch -d fixed
+- git cherry-pick 12345abcd
+- git log --graph
+- git branch
+- git switch main
+- git add .
