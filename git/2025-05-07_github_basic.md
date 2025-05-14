@@ -60,10 +60,10 @@ git config --global user.name "dahee"
 git config --global user.email "jwp9622@naver.com"
 
 ## 리눅스 명령어
-~ 현재 디렉토리
-pwd 현재 위치 경로
-ls  현재 디렉토리 목록
-ls -l 자세한 디렉토리 리스트
+### ~ 현재 디렉토리
+### pwd 현재 위치 경로
+### ls  현재 디렉토리 목록
+### ls -l 자세한 디렉토리 리스트
 ls -a 숨겨진 디렉토리
 ls -r 파일의 정렬순서 거꾸로 보여주기
 ls -t 파일 작성시간을 내림차순으로 
