@@ -17,7 +17,6 @@
 
 ## branch
 + git branch /  branch 확인, 기본은 main 이다
-  - * / 메인 브랜치에서 작업중이다.
 - git branch apple / apple 브랜드 만든다
 - git log --oneline  / 한줄에 한개씩 보여준다.
 - git switch apple   / 브랜지 변경, 스위치를 한것이다.
@@ -103,76 +102,76 @@
 ## Ⅱ. 객관식
 [문제] 다음 보기 중 가장 알맞은 것을 고르시오.
 다음 중 브랜치를 새로 생성하는 명령어는? B
-A. git init
-B. git branch fixed
-C. git merge fixed
-D. git switch
+- A. git init
+- B. git branch fixed
+- C. git merge fixed
+- D. git switch
 
 2. 다음 중 특정 커밋을 현재 브랜치에 적용하는 명령어는?C
-A. git revert
-B. git reset
-C. git cherry-pick
-D. git switch
+- A. git revert
+- B. git reset
+- C. git cherry-pick
+- D. git switch
 
 3. 병합 완료 후 브랜치를 삭제하는 명령어는?C
-A. git remove
-B. git delete
-C. git branch -d
-D. git merge --abort
+- A. git remove
+- B. git delete
+- C. git branch -d
+- D. git merge --abort
 
 4. git log --oneline 명령어의 설명으로 올바른 것은?B
-A. 커밋을 되돌리는 명령어
-B. 커밋을 한 줄로 요약해 출력함
-C. 원격 저장소에서 데이터를 받아옴
-D. 파일을 stage에서 제외함
+- A. 커밋을 되돌리는 명령어
+- B. 커밋을 한 줄로 요약해 출력함
+- C. 원격 저장소에서 데이터를 받아옴
+- D. 파일을 stage에서 제외함
 
 5. 다음 중 커밋 그래프를 확인하는 명령어는?B
-A. git graph
-B. git log --graph
-C. git list
-D. git switch
+- A. git graph
+- B. git log --graph
+- C. git list
+- D. git switch
 
 6. 수정된 파일을 커밋하는 순서는?C
-A. git push → git pull → git commit
-B. git add → git status → git clone
-C. git add → git commit
-D. git fetch → git commit
+- A. git push → git pull → git commit
+- B. git add → git status → git clone
+- C. git add → git commit
+- D. git fetch → git commit
 
 7. 스테이징된 파일을 제거하는 명령어는?B
-A. git revert
-B. git reset
-C. git rm
-D. git restore
+- A. git revert
+- B. git reset
+- C. git rm
+- D. git restore
 
 8. 원격 저장소를 추가하는 명령어는?A
-A. git remote add origin URL
-B. git push origin
-C. git fetch
-D. git remote fetch
+- A. git remote add origin URL
+- B. git push origin
+- C. git fetch
+- D. git remote fetch
 
 9. 새 파일을 생성하는 명령어는?B
-A. git init file.txt
-B. touch file.txt
-C. git add file.txt
-D. git new file.txt
+- A. git init file.txt
+- B. touch file.txt
+- C. git add file.txt
+- D. git new file.txt
 
 10. Git 저장소를 초기화하는 명령어는?B
-A. git clone
-B. git init
-C. git install
-D. git reset
+- A. git clone
+- B. git init
+- C. git install
+- D. git reset
 
 Ⅱ. 객관식 정답 및 해설
-B – 브랜치 생성
-C – 특정 커밋 적용
-C – 병합 후 브랜치 삭제
-B – 한 줄 요약 로그
-B – 커밋 그래프
-C – 올바른 커밋 순서
-B – 스테이지에서 제거
-A – 원격 저장소 추가
-B – 빈 파일 생성
-B – Git 저장소 초기화
+- B – 브랜치 생성
+- C – 특정 커밋 적용
+- C – 병합 후 브랜치 삭제
+- B – 한 줄 요약 로그
+- B – 커밋 그래프
+- C – 올바른 커밋 순서
+- B – 스테이지에서 제거
+- A – 원격 저장소 추가
+- B – 빈 파일 생성
+- B – Git 저장소 초기화
 
 ## Ⅲ. 실습형
 [문제] 다음 지시사항에 따라 정확한 Git 명령어를 작성하시오.
