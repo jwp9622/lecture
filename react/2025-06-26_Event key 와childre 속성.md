@@ -34,11 +34,9 @@
 
 
 * 델리게이션 모델   
-        Event              Event    
-Source ------> listeenr  -----> hanader
-
-Event Source  ───▶  Listener  ───▶  Handler
-(발생)           (감지)           (처리)
+        Event              Event       
+Event Source  ───▶  Listener  ───▶  Handler   
+(발생)&nbsp;&nbsp;&nbsp;(감지)           (처리)   
 
 
 
