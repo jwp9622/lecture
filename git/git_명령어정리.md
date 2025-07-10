@@ -99,7 +99,7 @@ $git clone https://github.com/jwp9622/project.git ==> 로컬과 저장소 동기
 $git clone https://github.com/jwp9622/project.git . ==> 로컬과 저장소 동기화, 현재폴더에 받음   
 $git remote add origin https://github.com/jwp9622/test-1.git ==> 로컬과 저장소 동기화, 하위 폴더 받음   
 $git remote -v ==>  원격저장소 연결확인   
-$git remote rm origin ==> git origin 삭제   
+$git remote remove origin ==> git origin 삭제   
 $git push -u orgin main ==> 원격저장소로 main 브랜치올리기,branch 별로 올려야됨.   
 $git push -u orgin test ==> 원격저장소로 test 브랜치올리기,branch 별로 올려야됨.   
 $git pull origin main ==> 원격 저장소에서 내려받기, 브랜치별로 받을수 있음.   
