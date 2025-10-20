@@ -1,0 +1,10 @@
+# 백엔드 관련 강의 요약 내용 입니다.
+- ai
+- algorithms
+- AWS
+- git
+- html & css
+- java
+- RESTful
+- Spring
+- 특강
